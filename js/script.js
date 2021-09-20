@@ -20,8 +20,7 @@ const fetchList = async (n) => {
 
     const name = pokemon.name[0].toUpperCase() + pokemon.name.slice(1);
     const div = document.createElement('div');
-    root.appendChild(div);
-    div.classList.add('card');
+    root.appendChild(div).classList.add('card');
   
     div.innerHTML =
       `<img class='card-header' src='${pokemon.sprites.front_default}'>
@@ -31,6 +30,8 @@ const fetchList = async (n) => {
   }
 
 };
+
+fetchList(18);
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();

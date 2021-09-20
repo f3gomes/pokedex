@@ -18,6 +18,7 @@ body {
   align-items: space-between;
   justify-content: center;
   margin: 0 auto;
+  margin-top: 20px;
 }
 
 .card {
