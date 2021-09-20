@@ -1,6 +1,6 @@
 # Pokedex List Project
 
-#### [DEMO](https://fomes.github.io/pokedex/)
+#### [DEMO](https://fomes-pokedex.netlify.app/)
 
 A simple pokedex with Javascript powered by PokeAPI
 
